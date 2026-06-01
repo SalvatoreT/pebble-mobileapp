@@ -1,0 +1,36 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "8c532c09afcb",
+  "session_id": "bfde62a8-8a1e-4b62-b282-d3352d51153e",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-01T06:10:27.464443Z",
+  "branch": "kmp-sdk/01-ios-location-pure-kotlin",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "libpebble3/build.gradle.kts"
+  ],
+  "agent": "Claude Code",
+  "model": "",
+  "turn_id": "ea77be55dc11",
+  "checkpoint_transcript_start": 110,
+  "transcript_lines_at_start": 110,
+  "token_usage": {
+    "input_tokens": 369,
+    "cache_creation_tokens": 32038,
+    "cache_read_tokens": 1718246,
+    "output_tokens": 20958,
+    "api_call_count": 14
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-01T06:10:27.456087Z",
+    "agent_lines": 0,
+    "agent_removed": 11,
+    "human_added": 69,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 69,
+    "total_lines_changed": 578,
+    "agent_percentage": 1.9031141868512111,
+    "metric_version": 2
+  }
+}
