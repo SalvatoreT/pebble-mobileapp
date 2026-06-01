@@ -1,0 +1,54 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "3baa151b4619",
+  "strategy": "manual-commit",
+  "branch": "salvatoret/kmp-sdk",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "composeApp/src/commonMain/kotlin/coredevices/coreapp/ui/screens/BugReportScreen.kt",
+    "consumer-verify/src/commonMain/kotlin/dev/sal/libpebble3consumer/LibPebbleUsage.kt",
+    "libindex/src/commonMain/kotlin/coredevices/libindex/device/RealScanning.kt",
+    "libpebble3/src/androidMain/kotlin/io/rebble/libpebblecommon/contacts/AndroidSystemContacts.kt",
+    "libpebble3/src/androidMain/kotlin/io/rebble/libpebblecommon/notification/PlatformNotificationListener.main~1.kt",
+    "libpebble3/src/androidMain/kotlin/io/rebble/libpebblecommon/util/BitmapUtil.android.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/FakeLibPebble.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/LegacyBtClassicMigrator.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/LibPebble.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/PebbleDevice.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/PlatformIdentifier.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/Scanning.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/WatchManager.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/bt/ble/transport/impl/KableBleScanner.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/contacts/PhoneContactsSyncer.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/di/LibPebbleModule.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/fake/FakeLibPebble.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/notification/ContactsApi.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/notification/PlatformNotificationListener.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/services/ScreenshotService.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/util/BitmapUtil.kt",
+    "libpebble3/src/commonTest/kotlin/io/rebble/libpebblecommon/js/PKJSRunnerTests.kt",
+    "libpebble3/src/iosMain/kotlin/io/rebble/libpebblecommon/contacts/IosSystemContacts.kt",
+    "libpebble3/src/iosMain/kotlin/io/rebble/libpebblecommon/notification/PlatformNotificationListener.ios.kt",
+    "libpebble3/src/jvmMain/kotlin/io/rebble/libpebblecommon/notification/PlatformNotificationListener.jvm.kt",
+    "pebble/src/commonMain/kotlin/coredevices/pebble/ui/NotificationContactsScreen.kt",
+    "pebble/src/commonMain/kotlin/coredevices/pebble/ui/NotificationsScreen.kt",
+    "pebble/src/commonMain/kotlin/coredevices/pebble/ui/PreviewUtil.kt",
+    "pebble/src/commonMain/kotlin/coredevices/pebble/ui/WatchesScreen.kt",
+    "pebble/src/iosMain/kotlin/coredevices/pebble/actions/watch/WatchInfo.kt"
+  ],
+  "sessions": [
+    {
+      "metadata": "/3b/aa151b4619/0/metadata.json",
+      "transcript": "/3b/aa151b4619/0/full.jsonl",
+      "content_hash": "/3b/aa151b4619/0/content_hash.txt",
+      "prompt": "/3b/aa151b4619/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 11815,
+    "cache_creation_tokens": 197478,
+    "cache_read_tokens": 934421,
+    "output_tokens": 44482,
+    "api_call_count": 16
+  }
+}
