@@ -1,0 +1,51 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "aaf4192d6054",
+  "session_id": "bfde62a8-8a1e-4b62-b282-d3352d51153e",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-01T06:11:28.98753Z",
+  "branch": "kmp-sdk/02-publishing-consumer-verify",
+  "checkpoints_count": 0,
+  "files_touched": [
+    ".tool-versions",
+    "blobannotations/build.gradle.kts",
+    "consumer-verify/.gitignore",
+    "consumer-verify/.tool-versions",
+    "consumer-verify/README.md",
+    "consumer-verify/build.gradle.kts",
+    "consumer-verify/gradle.properties",
+    "consumer-verify/gradle/wrapper/gradle-wrapper.jar",
+    "consumer-verify/gradle/wrapper/gradle-wrapper.properties",
+    "consumer-verify/gradlew",
+    "consumer-verify/gradlew.bat",
+    "consumer-verify/settings.gradle.kts",
+    "consumer-verify/src/androidMain/AndroidManifest.xml",
+    "consumer-verify/src/androidMain/kotlin/dev/sal/libpebble3consumer/MainActivity.kt",
+    "consumer-verify/src/commonMain/kotlin/dev/sal/libpebble3consumer/LibPebbleUsage.kt",
+    "libpebble3/build.gradle.kts"
+  ],
+  "agent": "Claude Code",
+  "model": "",
+  "turn_id": "ea77be55dc11",
+  "checkpoint_transcript_start": 169,
+  "transcript_lines_at_start": 169,
+  "token_usage": {
+    "input_tokens": 3930,
+    "cache_creation_tokens": 8021,
+    "cache_read_tokens": 555018,
+    "output_tokens": 3144,
+    "api_call_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-01T06:11:28.975584Z",
+    "agent_lines": 573,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 573,
+    "total_lines_changed": 573,
+    "agent_percentage": 100,
+    "metric_version": 2
+  }
+}
