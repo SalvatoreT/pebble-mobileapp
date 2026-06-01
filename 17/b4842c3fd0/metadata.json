@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "17b4842c3fd0",
+  "strategy": "manual-commit",
+  "branch": "kmp-sdk/05-internal-impl-visibility",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/LegacyBtClassicMigrator.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/PlatformIdentifier.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/WatchManager.kt"
+  ],
+  "sessions": [
+    {
+      "metadata": "/17/b4842c3fd0/0/metadata.json",
+      "transcript": "/17/b4842c3fd0/0/full.jsonl",
+      "content_hash": "/17/b4842c3fd0/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 6,
+    "cache_creation_tokens": 1829,
+    "cache_read_tokens": 563761,
+    "output_tokens": 1583,
+    "api_call_count": 3
+  }
+}
