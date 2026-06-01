@@ -1,0 +1,38 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "4f67977fa12e",
+  "session_id": "bfde62a8-8a1e-4b62-b282-d3352d51153e",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-01T06:19:00.374223Z",
+  "branch": "kmp-sdk/04-scan-api-no-kable",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "libindex/src/commonMain/kotlin/coredevices/libindex/device/RealScanning.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/Scanning.kt",
+    "libpebble3/src/commonMain/kotlin/io/rebble/libpebblecommon/connection/bt/ble/transport/impl/KableBleScanner.kt"
+  ],
+  "agent": "Claude Code",
+  "model": "",
+  "turn_id": "ea77be55dc11",
+  "checkpoint_transcript_start": 238,
+  "transcript_lines_at_start": 238,
+  "token_usage": {
+    "input_tokens": 6,
+    "cache_creation_tokens": 2857,
+    "cache_read_tokens": 555908,
+    "output_tokens": 1389,
+    "api_call_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-01T06:19:00.362202Z",
+    "agent_lines": 10,
+    "agent_removed": 6,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 10,
+    "total_lines_changed": 16,
+    "agent_percentage": 100,
+    "metric_version": 2
+  }
+}
