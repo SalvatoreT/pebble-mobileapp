@@ -8,7 +8,11 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
+    `maven-publish`
 }
+
+group = "io.rebble.libpebble3"
+version = System.getenv("LIBPEBBLE3_VERSION") ?: "0.0.1-SNAPSHOT"
 
 android {
     namespace = "coredevices.blobannotations"

@@ -13,6 +13,9 @@ plugins {
     alias(libs.plugins.composeCompiler)
 }
 
+group = "io.rebble.libpebble3"
+version = System.getenv("LIBPEBBLE3_VERSION") ?: "0.0.1-SNAPSHOT"
+
 publishing {
     repositories {
         maven {
@@ -184,6 +187,11 @@ tasks.withType<KotlinCompilationTask<*>>().all {
 }
 
 afterEvaluate {
+    tasks.matching { it.name.endsWith("SourcesJar") || it.name == "sourcesJar" }
+        .configureEach {
+            dependsOn("kspCommonMainKotlinMetadata")
+        }
+
     tasks.named("kspDebugKotlinAndroid") {
         dependsOn("kspCommonMainKotlinMetadata")
     }
